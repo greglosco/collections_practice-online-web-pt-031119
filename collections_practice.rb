@@ -54,16 +54,9 @@ def sum_array(integers)
   integers.sum
 end
 
-def add_s(word)
-  new_words = []
-  word.each {|part| 
-  if word = 
-    new_words << part
-    else new_words << "#{part}s" 
-  end
+def add_s(element)
+  element.each_with_index.collect{|element, index|
   }
-  new_words
-  [1,2].each_with_index.collect{|element, index| }
 end
 
 
