@@ -55,7 +55,14 @@ def sum_array(integers)
 end
 
 def add_s(word)
-
+  new_words = []
+  word.each {|part| 
+  if word = 
+    new_words << part
+    else new_words << "#{part}s" 
+  end
+  }
+  new_words
   [1,2].each_with_index.collect{|element, index| }
 end
 
