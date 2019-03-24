@@ -55,8 +55,7 @@ def sum_array(integers)
 end
 
 def add_s(element)
-  element.each_with_index.collect{|element, index|
-  }
+  
 end
 
 
