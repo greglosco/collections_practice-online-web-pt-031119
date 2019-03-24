@@ -56,7 +56,7 @@ end
 
 def add_s(word)
   new_words = []
-  word.each.drop(2) {|part| new_words << "#{part}s"}
+  word.each {|part| new_words << "#{part}s"}
   new_words
 end
 
