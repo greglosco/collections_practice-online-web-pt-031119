@@ -60,8 +60,9 @@ def add_s(word)
   if word[2] 
     new_words << part
     else new_words << "#{part}s" 
+  end
   }
-  return 
+  new_words
 end
 
 
