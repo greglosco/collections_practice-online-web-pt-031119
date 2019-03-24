@@ -56,9 +56,12 @@ end
 
 def add_s(word)
   new_words = []
-  word.each {|part| new_words << "#{part}s" 
+  word.each {|part| 
+  if word[2] 
+    new_words << part
+    else new_words << "#{part}s" 
   }
-  return new_words if word != 2
+  return 
 end
 
 
