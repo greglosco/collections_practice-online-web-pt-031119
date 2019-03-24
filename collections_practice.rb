@@ -59,6 +59,7 @@ def add_s(element)
     if index != 1 
       "#{element}s"
     else element = element
+  end
   }
 end
 
