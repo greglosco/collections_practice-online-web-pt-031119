@@ -57,7 +57,7 @@ end
 def add_s(word)
   new_words = []
   word.each {|part| new_words << "#{part}s" 
-    next if word[2]
+    next if word = word[1]
   }
   new_words
 end
